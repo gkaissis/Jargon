@@ -17,7 +17,7 @@ class NoWildCardError(Exception):
 
 
 def nope():
-    raise NoWildCardError("This is not Fast.AI. Import your stuff properly!")
+    raise NoWildCardError("Import your stuff properly!")
 
 
 __all__ = nope()
